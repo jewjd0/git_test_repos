@@ -1,11 +1,15 @@
 import React from 'react';
+//import PInfiniteScroll from './infiniteScrollPage';
 
 const Board = () => {
     return (
-        <>
-            <h1>게시판입니다.</h1>
-        </>
+        <div>
+            <h1>board</h1>
+            {/* <PInfiniteScroll></PInfiniteScroll> */}
+        </div>
+        // <PInfiniteScroll></PInfiniteScroll>
     );
 };
 
 export default Board;
+

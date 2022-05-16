@@ -1,8 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Board from './pages/board'
+import './data.js';
+import Board from './pages/board';
 
 function App() {
+  
   return (
     <div className="App">
       <BrowserRouter>
